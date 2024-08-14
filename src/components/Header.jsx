@@ -1,15 +1,14 @@
 import { useState } from 'react';
 import Navigation from './Navigation';
 
-const Header = () => {
+export default function Header() {
     return (
-        <div>
-            <header>
-                <h1>Michael Daleo's Portfolio</h1>
-                <Navigation></Navigation>
+        <>
+            <header className='title'>
+                <h1 className='name'>Michael Daleo</h1>
+                <Navigation />
             </header>
-        </div>
+        </>
     )
-
-
 }
+
