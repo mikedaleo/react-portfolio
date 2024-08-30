@@ -1,24 +1,18 @@
 #root {
-  width: 100%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -31,33 +25,105 @@
 }
 
 .card {
-  padding: 2em;
+text-align: center;
 }
 
 .read-the-docs {
   color: #888;
 }
 
-.title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
+/* h1 {
+  font-size: 4.5em;
+  color: white;
 }
 
-.linkDiv {
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
+.title-div {
+  text-align: center;
   font-size: 2em;
+  background-color: transparent;
+  border-radius: 50px;
+  margin: 15px;
+  border: black 10px;
+  box-shadow: 0 4px 8px black;
+  display: inline-block;
+  padding: 0 50px 0 50px;
+}
+
+.page-title {
+  margin: 0;
+  color: white;
+}
+
+.header {
+  background: linear-gradient(45deg, #1f1f1f, #000000);
+  border-radius: 200px;
+  margin: 15px;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 4px 8px black;
+
+}
+
+
+.links {
+  margin: 25px;
+  font-size: 1.5em;
   line-height: 1.1;
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px #000000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.links:hover {
+  color: white;
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px white;
 }
 
 .name {
-  width: 50%;
-  padding: 0 0 0 30px;
+  display: inline-block;
+  box-shadow: 0 4px 8px white;
+  padding: 0 20px 5px 20px;
+  border-radius: 50px;
+  background-color: transparent;  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.name:hover {
+  color: white;
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px white;
+}
+
 
 .mike_image {
   width: 300px;
+  border-radius: 150px;
+  box-shadow: 0 4px 8px black;
+  margin: 50px;
 }
+
+.about {
+  color: black;
+}
+
+
+.footer {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  border-radius: 40px;
+  margin: 15px;
+  box-shadow: 0 4px 8px #000000;
+  text-align: center;
+  padding: 0 30px 0 30px;
+} */
