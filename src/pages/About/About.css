@@ -13,13 +13,13 @@
 .card {
     border-radius: 55px;
     padding: 50px;
-    /* box-shadow: 0 0 20px gray; */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: -10px 10px 20px gray;
+    transform: translate(10px, -10px);
 }
 
 .card:hover {
-        box-shadow: -10px 10px 20px gray;
-        transform: translate(10px, -10px);
+        /* box-shadow: -10px 10px 20px gray;
+        transform: translate(10px, -10px); */
 }
 .mike_image {
     filter: grayscale();
@@ -33,22 +33,4 @@
     font-size: 4vh;
     line-height: 6vh;
     display: inline;
-}
-
-.nav-button {
-    margin-top: 50px;
-    font-family: "DM Serif Text", serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    font-size: 4vh;
-    background-color: transparent;
-    border: 0;
-    border-radius: 10px;
-    box-shadow: white;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.nav-button:hover {
-    /* color: rgb(0, 200, 207); */
-    box-shadow: -5px 5px 20px gray;
-    transform: translate(5px, -5px);
-    
 }

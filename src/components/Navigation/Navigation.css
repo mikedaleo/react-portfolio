@@ -1,0 +1,24 @@
+.linkDiv {
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+.nav-button {
+    margin: 100px;
+    font-family: "DM Serif Text", serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 4vh;
+    background-color: transparent;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-button:hover {
+    color: black;
+    text-shadow: rgb(0, 255, 207) 0px 0 7px;
+}
+
+.active {
+    color:rgb(0, 255, 207);
+}

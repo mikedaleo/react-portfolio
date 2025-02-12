@@ -1,5 +1,6 @@
 import mikeImage from '../../assets/blackandwhitemike.jpg';
 import './About.css';
+import Navigation from '../../components/Navigation/Navigation'
 
 export default function About() {
     return (
@@ -14,10 +15,6 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div>
-                <button className='nav-button'>NAVIGATION ➠</button>
-            </div>
-
         </>
     )
 }
