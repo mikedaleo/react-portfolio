@@ -1,10 +1,11 @@
-import reactImage from '../assets/react.svg'
+import reactImage from '../../assets/react.svg';
+import './Footer.css';
 
 export default function Footer() {
     return (
         <>
             <footer className='footer'>
-                <p>Created by Michael Daleo</p>
+                <p>© CREATED BY MICHAEL DALEO</p>
                 <p>Powered by React <img src={reactImage} alt="" /></p>
             </footer>
         </>
