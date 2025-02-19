@@ -9,8 +9,6 @@ export default function Home() {
            <h1>MICHAEL DALEO</h1>
             <h2>&lt;&gt;WEB DEVELOPER&lt;/&gt;</h2>
             <Link to={'/about'}><img src={pressStart} alt="" /></Link>
-
-            <footer>© CREATED BY MICHAEL DALEO</footer>
         </div>
     )
 }

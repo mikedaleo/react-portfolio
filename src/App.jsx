@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import Navigation from './components/Navigation/Navigation';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
     <>
       <Navigation />
       <Outlet />
+      <Footer />
     </>
   )
 }
