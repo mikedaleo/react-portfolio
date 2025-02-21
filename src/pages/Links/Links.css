@@ -1,0 +1,23 @@
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(1fr, auto);
+    justify-items: center;
+}
+
+.contact {
+    width: 500px;
+    margin: 30px;
+    padding: 10px;
+    font-size: 3rem;
+    font-family: 'Expressway';
+    border-radius: 30px;
+    border: solid white 2px;
+    transition: all 0.3s ease-in-out;
+    background: transparent;
+}
+
+.contact:hover {
+    box-shadow: -10px 10px 20px gray;
+    transform: translate(10px, -10px);
+    background: linear-gradient(gray, black);
+}
