@@ -8,7 +8,7 @@ import './Portfolio.css'
 export default function Portfolio() {
     return (
         <>
-            <h2 className='page-title'>WEBSITES</h2>
+            <h2 className='page-title'>MICHAEL'S WEBSITES</h2>
             <div className='page-container'>
                 <Link to='https://jlvstrasse.github.io/word_play/'>
                     <div className='page-div'>

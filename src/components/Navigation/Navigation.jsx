@@ -23,16 +23,10 @@ const Navigation = () => {
                 Portfolio
             </Link>
             <Link 
-                to={'/contact'} 
-                className={`nav-button ${location.pathname === '/contact' ? 'active' : ''}`}
+                to={'/links'} 
+                className={`nav-button ${location.pathname === '/links' ? 'active' : ''}`}
             >
-                Contact
-            </Link>
-            <Link 
-                to={'/resume'} 
-                className={`nav-button ${location.pathname === '/resume' ? 'active' : ''}`}
-            >
-                Resume
+                Links
             </Link>
         </div>
     );
