@@ -9,7 +9,7 @@ const Navigation = () => {
     }
 
     return (
-        <div className={'linkDiv'}>
+        <div className={'link-div'}>
                 <Link 
                 to={'/about'} 
                 className={`nav-button ${location.pathname === '/about' ? 'active' : ''}`}

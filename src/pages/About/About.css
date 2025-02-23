@@ -17,10 +17,7 @@
     transform: translate(10px, -10px);
 }
 
-.card:hover {
-        /* box-shadow: -10px 10px 20px gray;
-        transform: translate(10px, -10px); */
-}
+
 .mike_image {
     filter: grayscale();
     display: inline;
@@ -33,4 +30,30 @@
     font-size: 4vh;
     line-height: 6vh;
     display: inline;
+}
+
+@media (max-width: 810px) {
+
+    .card {
+        padding: 20px;
+    }
+
+    .about-michael {
+        font-size: 2.5rem;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .mike_image {
+        width: 100%;
+        
+    }
+
+    .about-p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
 }
