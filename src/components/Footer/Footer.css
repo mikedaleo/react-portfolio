@@ -11,3 +11,17 @@
     position: relative;
     bottom: 0;
 }
+
+@media (max-width: 480px) {
+    .footer {
+        font-size: .5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    
+    }
+
+    .react-image {
+        width: 20px;
+    }
+}

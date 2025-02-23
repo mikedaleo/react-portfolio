@@ -8,7 +8,7 @@ export default function Home() {
         <div className='home-div'>
            <h1>MICHAEL DALEO</h1>
             <h2>&lt;&gt;WEB DEVELOPER&lt;/&gt;</h2>
-            <Link to={'/about'}><img src={pressStart} alt="" /></Link>
+            <Link to={'/about'}><img src={pressStart} alt="A press start gif." className='press-start'/></Link>
         </div>
     )
 }

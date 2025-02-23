@@ -6,7 +6,7 @@ export default function Footer() {
         <>
             <footer className='footer'>
                 <p>© CREATED BY MICHAEL DALEO</p>
-                <p>Powered by React <img src={reactImage} alt="" /></p>
+                <p>Powered by React <img src={reactImage} alt="" className='react-image'/></p>
             </footer>
         </>
     )

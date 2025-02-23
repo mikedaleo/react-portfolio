@@ -1,4 +1,4 @@
-.linkDiv {
+.link-div {
     border: 2px white solid;
     border-radius: 10px;
 }
@@ -20,5 +20,17 @@
 }
 
 .active {
-    color:rgb(0, 255, 207);
+    color: rgb(0, 255, 207);
+}
+
+@media (max-width: 810px) {
+    .link-div {
+        width: 100%;
+    }
+
+    .nav-button {
+        margin: 10px;
+        font-size: 1.5rem;
+    }
+
 }

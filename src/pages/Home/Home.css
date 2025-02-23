@@ -25,3 +25,20 @@ a {
     transition: color 0.5s;
 }
 
+@media (max-width: 810px) {
+
+    h1 {
+        font-size: 5rem;
+        margin: 40px 0 40px 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin: 40px 0 40px 0;
+    }
+
+    .press-start {
+        width:80%;
+        margin: 40px 0 40px 0;
+    }
+}
