@@ -31,7 +31,7 @@ export default function Portfolio() {
                         <p className='page-para'>A personal project that uses the OpenWeather API to search and display the current weather of the searched location along with the 5-day forecast. Includes the temperature, wind speed, and humidity.</p>
                     </div>
                 </Link>
-                <Link to='https://minigame-masters.onrender.com/' className='page-link'>
+                <Link to='https://tech-blog-h6xe.onrender.com/' className='page-link'>
                     <div className='page-div'>
                         <h3 className='page-title'>Tech Blog</h3>
                         <img src={techBlog} alt="A screenshot of the Tech Blog page." className='page-img'/>
