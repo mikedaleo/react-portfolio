@@ -19,7 +19,7 @@
 
 
 body {
-  background: black;
+  background: rgb(3, 3, 3);
   min-width: 320px;
   min-height: 100vh;
 }

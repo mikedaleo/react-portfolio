@@ -1,9 +1,6 @@
 #root {
   padding: 20px;
   text-align: center;
-  /* display: flex;
-  flex-direction: column; */
-  height: 100%;
   margin: 0;
 }
 
@@ -24,9 +21,6 @@
   }
 }
 
-/* .card {
-text-align: center;
-} */
 
 .read-the-docs {
   color: #888;
