@@ -12,7 +12,7 @@
     border-radius: 30px;
     border: solid white 2px;
     transition: all 0.3s ease-in-out;
-    background: url(src\assets\escheresque_ste.webp);
+    background: url(..\..\assets\escheresque_ste.webp);
 }
 
 .page-div:hover {

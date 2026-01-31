@@ -13,7 +13,7 @@
 }
 
 .contact {
-    background: url(src\assets\escheresque_ste.webp);
+    background: url(..\..\assets\escheresque_ste.webp);
     display: flex;
     width: 500px;
     margin: 30px;
