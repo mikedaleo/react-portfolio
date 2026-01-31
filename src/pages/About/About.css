@@ -12,7 +12,7 @@
 
 .card {
     border-radius: 55px;
-    background: url(..\..\assets\escheresque_ste.webp);
+    background: url(../../assets/escheresque_ste.webp);
     padding: 50px;
     /* box-shadow: -10px 10px 20px rgb(34, 34, 34); */
 }
