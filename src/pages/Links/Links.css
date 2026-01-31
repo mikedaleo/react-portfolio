@@ -13,6 +13,7 @@
 }
 
 .contact {
+    background: url(C:\Users\miked\bootcamp\Challenges\react-portfolio\src\assets\escheresque_ste.webp);
     display: flex;
     width: 500px;
     margin: 30px;
@@ -22,7 +23,6 @@
     border-radius: 30px;
     border: solid white 2px;
     transition: all 0.3s ease-in-out;
-    background: transparent;
     justify-content: center;
 }
 

@@ -1,6 +1,7 @@
 .link-div {
-    border: 2px white solid;
+    /* border: 2px white solid; */
     border-radius: 10px;
+    background: url(C:\Users\miked\bootcamp\Challenges\react-portfolio\src\assets\escheresque_ste.webp);
 }
 
 .nav-button {
@@ -16,11 +17,17 @@
 
 .nav-button:hover {
     color: black;
-    text-shadow: rgb(0, 255, 207) 0px 0 7px;
+    text-shadow: rgb(168, 168, 168) 0px 0 7px;
 }
 
 .active {
-    color: rgb(0, 255, 207);
+    color: rgb(139, 139, 139);
+    /* -webkit-text-stroke: 1px black; */
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
 }
 
 @media (max-width: 810px) {
