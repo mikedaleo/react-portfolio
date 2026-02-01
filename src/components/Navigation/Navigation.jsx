@@ -23,11 +23,11 @@ const Navigation = () => {
                 Portfolio
             </Link>
             <div className="dropdown">
-            <Link
-                className={`nav-button ${location.pathname === '/links' ? 'active' : ''}`}
+            <span
+                className={`nav-button`}
             >
                 Links
-            </Link>
+            </span>
             <div className="dropdown-menu">
                 <a href="https://docs.google.com/document/d/1uifDCeuOJIdil6uk4crpELUm7PHOEYl5fJKzP4jSK4w/edit?tab=t.0" target="_blank" rel="noopener noreferrer" className='link'>Resume</a>
                 <a href="https://github.com/mikedaleo" target="_blank" rel="noopener noreferrer" className='link'>GitHub</a>
