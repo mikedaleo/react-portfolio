@@ -22,12 +22,19 @@ const Navigation = () => {
             >
                 Portfolio
             </Link>
-            <Link 
-                to={'/links'} 
+            <div className="dropdown">
+            <Link
                 className={`nav-button ${location.pathname === '/links' ? 'active' : ''}`}
             >
                 Links
             </Link>
+            <div className="dropdown-menu">
+                <a href="https://docs.google.com/document/d/1uifDCeuOJIdil6uk4crpELUm7PHOEYl5fJKzP4jSK4w/edit?tab=t.0" target="_blank" rel="noopener noreferrer" className='link'>Resume</a>
+                <a href="https://github.com/mikedaleo" target="_blank" rel="noopener noreferrer" className='link'>GitHub</a>
+                <a href="https://www.linkedin.com/in/michaeljdaleo/" target="_blank" rel="noopener noreferrer" className='link'>LinkedIn</a>
+                <a href="mailto:mikejdaleo@gmail.com" target="_blank" rel="noopener noreferrer" className='link'>Send E-mail</a>
+            </div>
+            </div>
         </div>
     );
 };

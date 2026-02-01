@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=DM+Serif+Text:ital@0;1&family=Overpass:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
 
+
 :root {
   font-family: "DM Serif Text", serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
-  background-color: #0e0e0e;
-
+  background:
+    linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 1)),
+    url("./assets/webb-dark.png");
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,9 +22,7 @@
 
 
 body {
-  background: #0e0e0e;
-  min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 

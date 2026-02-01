@@ -1,24 +1,46 @@
 .michaels-websites {
     font-size: 5rem;
+    text-shadow: #646464 0 0 20px;
+    opacity: 0;
+    transform: translateY(-400px);
+    animation: titleEnter 1s cubic-bezier(.25, .46, .45, .94) forwards;
+}
+
+@keyframes titleEnter {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .page-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    opacity: 0;
+    transform: translateY(400px);
+    animation: containerEnter 1s cubic-bezier(.25, .46, .45, .94) forwards;
+}
+
+@keyframes containerEnter {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .page-div {
     margin: 10px;
+    padding: 10px;
     border-radius: 30px;
-    border: solid white 2px;
+    box-shadow: #626262 0 0 10px;
     transition: all 0.3s ease-in-out;
     background: url(../../assets/escheresque_ste.webp);
 }
 
 .page-div:hover {
-    box-shadow: -10px 10px 20px gray;
-    transform: translate(10px, -10px);
-    background: linear-gradient(gray, black);
+    box-shadow: 0 0 30px gray;
+    transform: translate(0, -10px);
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .3));
 }
 
 .page-img {
@@ -26,9 +48,9 @@
 }
 
 .page-para {
-font-size: 1.5vh;
-font-family: 'Overpass';
-margin: 50px;
+    font-size: 1.5vh;
+    font-family: 'Overpass';
+    margin: 50px;
 }
 
 @media (max-width: 810px) {
@@ -43,10 +65,9 @@ margin: 50px;
     }
 
     .page-div {
-        width: 100%;
         margin: 0 0 10px 0;
     }
-    
+
     .page-img {
         width: 100%;
         height: auto;
