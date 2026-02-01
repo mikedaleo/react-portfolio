@@ -14,11 +14,7 @@ function App() {
   return (
     <>
       <Navigation />
-      <AnimatePresence mode="wait">
-        <motion.div key={location.pathname} initial="initial" animate="animate" exit="exit" variants={pageVariants}>
-          <Outlet />
-        </motion.div>
-      </AnimatePresence>
+      <Outlet />
       <Footer />
     </>
   )

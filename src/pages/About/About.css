@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=DM+Serif+Text:ital@0;1&family=Overpass:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
 
+.title-div {
+    opacity: 0;
+    transform: translateX(-400px);
+    animation: titleEnter 1s cubic-bezier(.25,.46,.45,.94) forwards;
+}
 
+@keyframes titleEnter {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 .about {
     display: grid; 
     grid-template-columns: 1fr 1fr;
@@ -10,25 +21,40 @@
     
 }
 
+.about-michael {
+     text-shadow: #646464 0 0 20px;
+     font-size: 5rem;
+}
+
 .card {
     border-radius: 55px;
     background: url(../../assets/escheresque_ste.webp);
-    padding: 50px;
-    /* box-shadow: -10px 10px 20px rgb(34, 34, 34); */
+    padding: 5rem;
+    box-shadow: #626262 0 0 20px;
+    opacity: 0;
+    transform: translateX(400px);
+    animation: cardEnter 1s cubic-bezier(.25,.46,.45,.94) forwards;
+}
+
+@keyframes cardEnter {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 
 .mike_image {
     filter: grayscale();
     display: inline;
-    width: 500px;
+    width: 30rem;
     border-radius: 40px;
 }
 
 .about-p {
     font-family: "Roboto Mono", monospace;;
-    font-size: 4vh;
-    line-height: 6vh;
+    font-size: 2rem;
+    line-height: 2rem;
     display: inline;
 }
 
